@@ -1,0 +1,32 @@
+/* General */
+.soms-wizard-form{ overflow: hidden; }
+.soms-wizard-form input[type=checkbox]{ display:none; }
+.soms-wizard-form input[type=checkbox] + label{ margin-bottom: 0; }
+.soms-wizard-form input[type=checkbox] + label:before{ font-family: FontAwesome; display: inline-block; }
+.soms-wizard-form input[type=checkbox] + label:before{ content: "\f096"; width: 1.28571429em; }
+.soms-wizard-form input[type=checkbox]:checked + label:before{ content: "\f046"; }
+.soms-wizard-form .form-wrap{ position: relative; }
+.soms-wizard-form .form-wrap.loading:before{ content: ''; position: absolute; background: url('../../images/loader.gif') no-repeat center rgba(170,170,170,0.5); top: 0; bottom: 0; left: 0; right: 0; z-index: 1000; }
+.soms-wizard-form .form-page{ display: none; }
+.soms-wizard-form .form-page.active{ display: block; }
+
+/* Form Steps */
+.soms-wizard-form ul.steps{ padding: 50px 0; text-align: center; overflow: hidden; }
+.soms-wizard-form ul.steps li{ display: inline-block; font-size: 14px; position: relative; margin: 0 25px; }
+.soms-wizard-form ul.steps li:before, .soms-wizard-form ul.steps li:after{ content: ''; height: 1px; width: 100%; background: #bdbdbd; content: ""; display: block; position: absolute; top: 50%; }
+.soms-wizard-form ul.steps li:before{ right: 100%; }
+.soms-wizard-form ul.steps li:after{ left: 100%; }
+.soms-wizard-form ul.steps li a{ color: #fff; text-decoration: none; padding: 6px 12px; background: #bdbdbd; display: block; border-radius: 50%; }
+.soms-wizard-form ul.steps li.active a{ background: #016BB5; }
+.soms-wizard-form ul.steps li span.step-title{ position: absolute; width: 120px; background: transparent; color: #000; padding: 0; top: -1000px; left: -42px; transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1) 200ms; }
+.soms-wizard-form ul.steps li.active span.step-title{ top: 30px; }
+.soms-wizard-form ul.steps li:not(.active):hover span.step-title{ top: -50px; background: rgba(97,97,97,0.75); color: #fff; padding: 10px; width: 165px; }
+
+/* Page 1 */
+.soms-wizard-form .show_if_has_logo{ display: none; }
+
+/* Page 8 */
+.soms-wizard-form .show_if_has_website{ display: none; }
+
+/* Navigation */
+.soms-wizard-form .section-navigation{ padding: 10px 0; border-top: 1px solid #bdbdbd; }
