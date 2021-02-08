@@ -31,17 +31,17 @@ form{margin:0;}
 @media screen and (max-width:767.98px){.grecaptcha-badge{display:none !important;}}
 .form-control-lg{font-size:1rem !important;}
 /** 0. Color set  **/
-.green-light{color: #18ab4f}
+.green-light{color: #89cff0}
 .dark-matter{background-color:#0d0d0d;color:#fff;}
 .grey-light{background-color:#f1f1f1;}
-.allah-light{background-color:#18ab4f;}
+.allah-light{background-color:#89cff0;}
 .color-white, .color-white a{color:#fff;}
-.color-white a:hover{text-decoration:underline;color: #000}
+.color-white a:hover{text-decoration:underline;color: #25555F}
 .grey-mayemaye{background-color:rgba(0,0,0,.3);}
 .darkness-grey{background-color:#2a2a2a;}
-.green-bottom-border{border-bottom:5px solid #18ab4f;}
-.menu-item-has-children .dropdown-menu{background-color:#18ab4f;}
-.allah-light-darker{background-color: #0f963c;}
+.green-bottom-border{border-bottom:5px solid #89cff0;}
+.menu-item-has-children .dropdown-menu{background-color:#89cff0;}
+.allah-light-darker{background-color: #2bb4f5;}
 .transparent_green{/* background-color: rgba(128, 194, 96, .8); */ background-color: #81be41;}
 /***********************/
 /** 0.1 Floating buttons  **/
@@ -62,7 +62,7 @@ a.floating-button.big:hover{
 	transform: translateX(40px);
 }
 .floating-button .background{
-	background-color: #18ab4f;
+	background-color: #89cff0;
     padding: 10px 30px;
     color: #fff;
     text-transform: uppercase;
@@ -101,7 +101,7 @@ a.floating-button.small:hover{
 }
 
 a.floating-button.small:hover .background{
-	background-color: #18ab4f;
+	background-color: #89cff0;
 }
 a.floating-button.small.free-quote{
 	top: 32%;
@@ -280,7 +280,7 @@ a.floating-button.small.location{
 .button-green{
 	border: none;
 	display:inline-block;
-	background: #18ab4f;
+	background: #89cff0;
 	padding:10px 15px;
 	color:#fff !important;
 	text-align:center;
@@ -351,7 +351,7 @@ section, .coastal-content{
 	line-height:2rem;
 }
 section a{
-	color: #18ab4f;
+	color: #89cff0;
 }
 @media screen and (max-width:767.98px){
 	.text-mb-small{
@@ -496,7 +496,7 @@ section a{
 	color:#fff;
 }
 .boxed-icons-wrapper a:hover{
-	color: #18ab4f
+	color: #89cff0
 }
 .social-distortion{
 	margin-bottom:0;
